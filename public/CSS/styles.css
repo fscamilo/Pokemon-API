@@ -1,0 +1,68 @@
+
+/* 
+    Author: fscamilo@gmail.com
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Courier New";
+}
+
+#main {
+    background: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 650px;
+}
+
+#title {
+    text-align: center;
+    background: blue;
+    font-size: 3em;
+    color: white;
+    padding: 5px;
+}
+
+#content {
+    display: grid;
+    grid-gap: 50px;
+    padding: 30px;
+}
+
+#leftdiv {
+    grid-column: 1;
+    background: #ffb200;
+ }
+ 
+ #rightdiv {
+    grid-column: 2;
+    background: lightgreen;
+}
+
+div p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+ }
+ 
+#pokelist {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+}
+
+#details {
+    font-size: 1.2em;
+    padding: 10px;
+}
